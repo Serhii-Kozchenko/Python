@@ -473,8 +473,3 @@ print(f"'До Святвечора залишилось: {until_holy_evening}'")
 now = datetime.now()
 
 
-str = 'Hello fron another comp'
-str2 = 'Hello from another comp'
-str3 = 'Hello from another laptop'
-str4 = 'Hello from another laptop again'
-str5 = 'Hello from another laptop again2'
