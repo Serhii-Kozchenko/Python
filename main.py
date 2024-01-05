@@ -483,4 +483,4 @@ now = datetime.now()
 # cat.update(info)
 # print(cat)
 
-str = 'Hello'
+str = 'Hello fron another comp'
