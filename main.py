@@ -471,4 +471,4 @@ print(f"'До Святвечора залишилось: {until_holy_evening}'")
 now = datetime.now()
 
 
-str = "Hello from desktop"
+str = "Hello from desktop2"
