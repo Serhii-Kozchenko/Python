@@ -471,8 +471,6 @@ current_time = datetime.now()
 until_holy_evening = holy_evening - current_time
 print(f"'До Святвечора залишилось: {until_holy_evening}'") 
 now = datetime.now()
-# timestamp = datetime.timestamp(now)
-# print(timestamp)
 
 # cat = {}
 # info = {"status": "vaccinated", "breed": True}
