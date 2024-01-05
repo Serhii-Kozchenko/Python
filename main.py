@@ -482,3 +482,5 @@ now = datetime.now()
 # age = cat.get("nick")
 # cat.update(info)
 # print(cat)
+
+str = 'Hello'
