@@ -472,16 +472,7 @@ until_holy_evening = holy_evening - current_time
 print(f"'До Святвечора залишилось: {until_holy_evening}'") 
 now = datetime.now()
 
-# cat = {}
-# info = {"status": "vaccinated", "breed": True}
-
-# cat["nick"] = "Simon"
-# cat["age"] = 7
-# cat["characteristics"] = ["лагідний", "кусається"]
-
-# age = cat.get("nick")
-# cat.update(info)
-# print(cat)
 
 str = 'Hello fron another comp'
 str2 = 'Hello from another comp'
+str3 = 'Hello from another laptop'
