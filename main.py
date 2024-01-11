@@ -452,25 +452,60 @@
 # dict = {}
 
 # for char in str:
-    
+
 #    count = dict.get(char, 0)
 #    count+=1
 #    dict[char] = count
-        
+
 # print(dict)
 
-from datetime import datetime
+# from datetime import datetime
+
+
+# num = int(input("Enter the integer (0 to 100): "))
+# sum = 0
+
+# while num>=0:
+#     if num >100:
+#         print("Введіть число менше 100")
+#         break
+
+#     else:
+#         sum +=num
+#         num-=1
+
+# print(sum)
+
+
+# my_list = []
+
+# while True:
+#     new_element = input("Enter data: ")
+#     if new_element:
+#         my_list.append(new_element)
+#     print(my_list)
+
+
+# def discount_price(price, discount):
+#     def apply_discount():
+#         nonlocal price
+#         price = price * (1 - discount)
+#     apply_discount()
+#     return price
+
+# print(discount_price(100, 0.1))
+
+# def get_fullname(first_name, last_name, middle_name = ''):
+#     if middle_name:
+#         return f" {first_name} {middle_name} {last_name}"
+#     else:
+#         return f" {first_name} {last_name}"
+
+
+# print(get_fullname("Petro","Zaliznyak",))
+
+def first(size, *args):
+    return size + len(args)
 
 
 
-holy_evening = datetime(year=2024, month=1, day=6, hour=16)
-current_time = datetime.now()
-
-until_holy_evening = holy_evening - current_time
-print(f"До Святвечора залишилось: {until_holy_evening}") 
-now = datetime.now()
-
-
-str = "Hello from desktop2"
-
-str1 = "Hello from laptop"
