@@ -507,13 +507,3 @@
 def first(size, *args):
     return size + len(args)
 
-
-
-holy_evening = datetime(year=2024, month=1, day=6, hour=16)
-current_time = datetime.now()
-
-until_holy_evening = holy_evening - current_time
-print(f"'До Святвечора залишилось: {until_holy_evening}'") 
-now = datetime.now()
-
-
